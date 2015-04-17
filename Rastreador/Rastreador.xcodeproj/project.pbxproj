@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A03670BB1AE1D10300501491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03670BA1AE1D10300501491 /* AppDelegate.swift */; };
+		A03670BE1AE1D10300501491 /* Rastreador.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A03670BC1AE1D10300501491 /* Rastreador.xcdatamodeld */; };
+		A03670C01AE1D10300501491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03670BF1AE1D10300501491 /* ViewController.swift */; };
+		A03670C31AE1D10300501491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03670C11AE1D10300501491 /* Main.storyboard */; };
+		A03670C51AE1D10300501491 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03670C41AE1D10300501491 /* Images.xcassets */; };
+		A03670C81AE1D10300501491 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A03670C61AE1D10300501491 /* LaunchScreen.xib */; };
+		A03670D41AE1D10300501491 /* RastreadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03670D31AE1D10300501491 /* RastreadorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A03670CE1AE1D10300501491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A03670AD1AE1D10300501491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A03670B41AE1D10300501491;
+			remoteInfo = Rastreador;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A03670B51AE1D10300501491 /* Rastreador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rastreador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03670B91AE1D10300501491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03670BA1AE1D10300501491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A03670BD1AE1D10300501491 /* Rastreador.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rastreador.xcdatamodel; sourceTree = "<group>"; };
+		A03670BF1AE1D10300501491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A03670C21AE1D10300501491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A03670C41AE1D10300501491 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A03670C71AE1D10300501491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A03670CD1AE1D10300501491 /* RastreadorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RastreadorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03670D21AE1D10300501491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03670D31AE1D10300501491 /* RastreadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RastreadorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A03670B21AE1D10300501491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03670CA1AE1D10300501491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A03670AC1AE1D10300501491 = {
+			isa = PBXGroup;
+			children = (
+				A03670B71AE1D10300501491 /* Rastreador */,
+				A03670D01AE1D10300501491 /* RastreadorTests */,
+				A03670B61AE1D10300501491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A03670B61AE1D10300501491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A03670B51AE1D10300501491 /* Rastreador.app */,
+				A03670CD1AE1D10300501491 /* RastreadorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A03670B71AE1D10300501491 /* Rastreador */ = {
+			isa = PBXGroup;
+			children = (
+				A03670BA1AE1D10300501491 /* AppDelegate.swift */,
+				A03670BF1AE1D10300501491 /* ViewController.swift */,
+				A03670C11AE1D10300501491 /* Main.storyboard */,
+				A03670C41AE1D10300501491 /* Images.xcassets */,
+				A03670C61AE1D10300501491 /* LaunchScreen.xib */,
+				A03670BC1AE1D10300501491 /* Rastreador.xcdatamodeld */,
+				A03670B81AE1D10300501491 /* Supporting Files */,
+			);
+			path = Rastreador;
+			sourceTree = "<group>";
+		};
+		A03670B81AE1D10300501491 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A03670B91AE1D10300501491 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A03670D01AE1D10300501491 /* RastreadorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A03670D31AE1D10300501491 /* RastreadorTests.swift */,
+				A03670D11AE1D10300501491 /* Supporting Files */,
+			);
+			path = RastreadorTests;
+			sourceTree = "<group>";
+		};
+		A03670D11AE1D10300501491 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A03670D21AE1D10300501491 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A03670B41AE1D10300501491 /* Rastreador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03670D71AE1D10300501491 /* Build configuration list for PBXNativeTarget "Rastreador" */;
+			buildPhases = (
+				A03670B11AE1D10300501491 /* Sources */,
+				A03670B21AE1D10300501491 /* Frameworks */,
+				A03670B31AE1D10300501491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rastreador;
+			productName = Rastreador;
+			productReference = A03670B51AE1D10300501491 /* Rastreador.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A03670CC1AE1D10300501491 /* RastreadorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A03670DA1AE1D10300501491 /* Build configuration list for PBXNativeTarget "RastreadorTests" */;
+			buildPhases = (
+				A03670C91AE1D10300501491 /* Sources */,
+				A03670CA1AE1D10300501491 /* Frameworks */,
+				A03670CB1AE1D10300501491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A03670CF1AE1D10300501491 /* PBXTargetDependency */,
+			);
+			name = RastreadorTests;
+			productName = RastreadorTests;
+			productReference = A03670CD1AE1D10300501491 /* RastreadorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A03670AD1AE1D10300501491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eduardo Santi";
+				TargetAttributes = {
+					A03670B41AE1D10300501491 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A03670CC1AE1D10300501491 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A03670B41AE1D10300501491;
+					};
+				};
+			};
+			buildConfigurationList = A03670B01AE1D10300501491 /* Build configuration list for PBXProject "Rastreador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A03670AC1AE1D10300501491;
+			productRefGroup = A03670B61AE1D10300501491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A03670B41AE1D10300501491 /* Rastreador */,
+				A03670CC1AE1D10300501491 /* RastreadorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A03670B31AE1D10300501491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03670C31AE1D10300501491 /* Main.storyboard in Resources */,
+				A03670C81AE1D10300501491 /* LaunchScreen.xib in Resources */,
+				A03670C51AE1D10300501491 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03670CB1AE1D10300501491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A03670B11AE1D10300501491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03670C01AE1D10300501491 /* ViewController.swift in Sources */,
+				A03670BE1AE1D10300501491 /* Rastreador.xcdatamodeld in Sources */,
+				A03670BB1AE1D10300501491 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03670C91AE1D10300501491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03670D41AE1D10300501491 /* RastreadorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A03670CF1AE1D10300501491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A03670B41AE1D10300501491 /* Rastreador */;
+			targetProxy = A03670CE1AE1D10300501491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A03670C11AE1D10300501491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03670C21AE1D10300501491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A03670C61AE1D10300501491 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A03670C71AE1D10300501491 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A03670D51AE1D10300501491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A03670D61AE1D10300501491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A03670D81AE1D10300501491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rastreador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A03670D91AE1D10300501491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rastreador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A03670DB1AE1D10300501491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RastreadorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rastreador.app/Rastreador";
+			};
+			name = Debug;
+		};
+		A03670DC1AE1D10300501491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RastreadorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rastreador.app/Rastreador";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A03670B01AE1D10300501491 /* Build configuration list for PBXProject "Rastreador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03670D51AE1D10300501491 /* Debug */,
+				A03670D61AE1D10300501491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A03670D71AE1D10300501491 /* Build configuration list for PBXNativeTarget "Rastreador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03670D81AE1D10300501491 /* Debug */,
+				A03670D91AE1D10300501491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A03670DA1AE1D10300501491 /* Build configuration list for PBXNativeTarget "RastreadorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A03670DB1AE1D10300501491 /* Debug */,
+				A03670DC1AE1D10300501491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A03670BC1AE1D10300501491 /* Rastreador.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A03670BD1AE1D10300501491 /* Rastreador.xcdatamodel */,
+			);
+			currentVersion = A03670BD1AE1D10300501491 /* Rastreador.xcdatamodel */;
+			path = Rastreador.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A03670AD1AE1D10300501491 /* Project object */;
+}
